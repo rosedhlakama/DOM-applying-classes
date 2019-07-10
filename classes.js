@@ -10,6 +10,7 @@ function start () {
  two()
  three()
  makeVisible()
+
 }
 
 
@@ -35,7 +36,11 @@ function three (){
 // CREATE FUNCTION makeVisible HERE
 function makeVisible(){
   var makeVisible = document.getElementsByClassName('invisible')[0]
-  makeVisible.classList.add('visible')
-}
+  makeVisible.classList.add('visible');
+//  making the element round and red
+  makeVisible.style.backgroundColor = "red";
+  makeVisible.style.borderRadius = "50%";
+  makeVisible.style.borderColor = "#ccc";
 
+ }
 
