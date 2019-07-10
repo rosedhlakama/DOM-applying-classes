@@ -41,6 +41,5 @@ function makeVisible(){
   makeVisible.style.backgroundColor = "red";
   makeVisible.style.borderRadius = "50%";
   makeVisible.style.borderColor = "#ccc";
-
  }
 
